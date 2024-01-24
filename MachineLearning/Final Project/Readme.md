@@ -28,7 +28,7 @@
 * I also add a $45^o$ degrees rotation
 <br/>
 
-## Or model then receives the image, predicts the class label, and plays the appropriate action that would win. For every repetition, our model bets 1 point.
+## Then, the model receives the image, predicts the class label, and plays the appropriate action that would win. For every repetition, our model bets 1 point.
 * If our model wins, we get 2 points
 * If our model gets a draw, we get 1 point
 * If our model loses, we get no points
