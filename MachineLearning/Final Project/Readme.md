@@ -3,7 +3,7 @@
 * The enemy playes first, so we see an image of an action (rock/paper/scissors)
 * Our model then tries to select the optimal action, which would make it win (so if the enemy played rock, then our model should choose paper)
 <br/>
-@
+
 ### I trained my model using this dataset: https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
 * This dataset contains a little over 700 images of each action (700+ for rock, 700+ for paper, 700+ for scissors), which are 200x300 pixels each.
 * I used 80% of the data as the train set, and 20% as the test set
