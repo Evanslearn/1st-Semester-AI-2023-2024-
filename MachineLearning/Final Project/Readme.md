@@ -29,6 +29,20 @@
 <br/>
 
 ## Then, the model receives the image, predicts the class label, and plays the appropriate action that would win. For every repetition, our model bets 1 point.
-* If our model wins, we get 2 points
-* If our model gets a draw, we get 1 point
-* If our model loses, we get no points
+* If our model wins, we get 2 points (so, we have gained 1 point)
+* If our model gets a draw, we get 1 point (so, we have not gained anything)
+* If our model loses, we get no points (so, we have lost a point)
+
+# RESULTS:
+## CNN:
+* Best achieved Accuracy in the internal test set: This occured when applying no pre-processing steps, and the achieved accuracy was 97.53%. The line-plot of gain looks like this: <br/>
+![image](https://github.com/Evanslearn/1st-Semester-AI-2023-2024-/assets/104510165/fa87ed7a-47f4-4cf3-8aca-a98724585f23)
+* Best achieved Accuracy in the EXTERNAL test set: This occured when applying only the noise pre-processing step, and the achieved accuracy was 40.35%. The line-plot of gain looks like this: <br/>
+![image](https://github.com/Evanslearn/1st-Semester-AI-2023-2024-/assets/104510165/155d07c9-6cfa-4532-a390-f69e7bf07251)
+
+## SVM:
+* Best achieved Accuracy in the internal test set: This occured when applying no pre-processing steps, or only the noise pre-processing step, and the achieved accuracy was 92.05%. The line-plot of gain looks like this: <br/>
+![image](https://github.com/Evanslearn/1st-Semester-AI-2023-2024-/assets/104510165/6220a066-0532-42d2-ac7c-ec8850a4798f)
+* Best achieved Accuracy in the EXTERNAL test set: This occured when applying all pre-processing steps, and the achieved accuracy was 33.52%. The line-plot of gain looks like this: <br/>
+![image](https://github.com/Evanslearn/1st-Semester-AI-2023-2024-/assets/104510165/247eae90-b474-4bf8-93dc-bc65001f9e6e)
+
