@@ -46,10 +46,17 @@
 ![image](https://github.com/Evanslearn/1st-Semester-AI-2023-2024-/assets/104510165/6220a066-0532-42d2-ac7c-ec8850a4798f)
 * Best achieved Accuracy in the EXTERNAL test set: This occured when applying all pre-processing steps, and the achieved accuracy was 33.52%. The line-plot of gain looks like this: <br/>
 ![image](https://github.com/Evanslearn/1st-Semester-AI-2023-2024-/assets/104510165/247eae90-b474-4bf8-93dc-bc65001f9e6e)
+<br/>
 
+<b>I also tried NN, kNN, RF in the internal train/test set, to see what test set accuracy they yield.</b>
 ## NN:
 * Internal Test Set Accuracy: 76.58 %
 ## kNN:
 * Internal Test Set Accuracy: 89.53 %
 ## RF:
 * Internal Test Set Accuracy: 69.69 %
+
+# CONCLUSION:
+## I have chosen CNN as my best model, although the accuracy in the external set is not as hope as I would have liked. (max 40.35%).<br/>
+## I have also tried SVM model, but the highest achieved accuracy was 33.52%
+## I also tried NN, kNN, RF algorithms in the internal test set, but they did not prove to be as successful. (kNN did have good accuracy, but not as high as SVM or CNN)
