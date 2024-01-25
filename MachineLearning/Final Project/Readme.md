@@ -32,6 +32,7 @@
 * If our model wins, we get 2 points (so, we have gained 1 point)
 * If our model gets a draw, we get 1 point (so, we have not gained anything)
 * If our model loses, we get no points (so, we have lost a point)
+<br/>
 
 # RESULTS:
 ## CNN:
@@ -46,3 +47,9 @@
 * Best achieved Accuracy in the EXTERNAL test set: This occured when applying all pre-processing steps, and the achieved accuracy was 33.52%. The line-plot of gain looks like this: <br/>
 ![image](https://github.com/Evanslearn/1st-Semester-AI-2023-2024-/assets/104510165/247eae90-b474-4bf8-93dc-bc65001f9e6e)
 
+## NN:
+* Internal Test Set Accuracy: 76.58 %
+## kNN:
+* Internal Test Set Accuracy: 89.53 %
+## RF:
+* Internal Test Set Accuracy: 69.69 %
