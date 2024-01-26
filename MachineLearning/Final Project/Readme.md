@@ -4,10 +4,18 @@
 * Our model then tries to select the optimal action, which would make it win (so if the enemy played rock, then our model should choose paper)
 <br/>
 
-### I trained my model using this dataset: https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
+# To run this ipynb:
+* create folders 'rock', 'scissors', 'paper', to accomodate the training data set
+  * Upload the appropriate images in each folder
+* create folders 'rock_test', 'scissors_test', 'paper_test', to use the external test set.
+  * Upload the appropriate images in each folder
+* Run all cells
+<br/>
+
+## I trained my model using this dataset: https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
 * This dataset contains a little over 700 images of each action (700+ for rock, 700+ for paper, 700+ for scissors), which are 200x300 pixels each.
 * I used 80% of the data as the train set, and 20% as the test set
-### I also tested my model at this dataset: https://www.kaggle.com/datasets/glushko/rock-paper-scissors-dataset
+## I also tested my model at this dataset: https://www.kaggle.com/datasets/glushko/rock-paper-scissors-dataset
 * This dataset also contains more than 700 images of each action, which are 300x300 pixels each.
 * I only used the test set, which contained 176paper, 176 scissors, 188rock images.
 <br/>
@@ -60,3 +68,5 @@
 ## I have chosen CNN as my best model, although the accuracy in the external set is not as hope as I would have liked. (max 40.35%).<br/>
 ## I have also tried SVM model, but the highest achieved accuracy was 33.52%
 ## I also tried NN, kNN, RF algorithms in the internal test set, but they did not prove to be as successful. (kNN did have good accuracy, but not as high as SVM or CNN)
+* I believe the accuracy is not that great in the external test set, because the images had dimensions 300x300, and we rescaled them to 20x30, thus distorting them.
+* The other explanation is that the accuracy dropped in the external test set, because they were not clear images of only an action (rock/scissors/paper), but it contained a face and objects as well.
