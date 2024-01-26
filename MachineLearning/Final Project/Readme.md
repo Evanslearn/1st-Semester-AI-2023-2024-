@@ -69,4 +69,4 @@
 ## I have also tried SVM model, but the highest achieved accuracy was 33.52%
 ## I also tried NN, kNN, RF algorithms in the internal test set, but they did not prove to be as successful. (kNN did have good accuracy, but not as high as SVM or CNN)
 * I believe the accuracy is not that great in the external test set, because the images had dimensions 300x300, and we rescaled them to 20x30, thus distorting them.
-* The other explanation is that the accuracy dropped in the external test set, because they were not clear images of only an action (rock/scissors/paper), but it contained a face and objects as well.
+* The other explanation is that the accuracy dropped in the external test set, because they were not clear images of only an action (rock/scissors/paper) - they also contained a face and objects.
